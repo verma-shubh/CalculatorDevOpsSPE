@@ -6,7 +6,7 @@ public class CalculatorTest {
     private static final double delta = 1e-15;
     Calculator calculator = new Calculator();
 
-    //Tests for square root.
+    // Tests for square root.
     @Test
     public void squareRootTruePositive(){
         assertEquals("Calculating square root for true positive", 5, calculator.squareRoot(25), delta);
@@ -18,7 +18,7 @@ public class CalculatorTest {
         assertNotEquals("Calculating square root for false positive", 11, calculator.squareRoot(76), delta);
     }
 
-    //Tests for factorial.
+    // Tests for factorial.
     @Test
     public void factorialTruePositive(){
         assertEquals("Calculating factorial for true positive", 120, calculator.factorial(5), delta);
@@ -30,7 +30,7 @@ public class CalculatorTest {
         assertNotEquals("Calculating factorial for false positive", 200, calculator.factorial(6), delta);
     }
 
-    //Tests for natural logarithm.
+    // Tests for natural logarithm.
     @Test
     public void naturalLogarithmTruePositive(){
         assertEquals("Calculating natural logarithm for true positive", 0, calculator.naturalLogarithm(1), delta);
@@ -43,6 +43,7 @@ public class CalculatorTest {
         assertNotEquals("Calculating square root for false positive", 3.2, calculator.naturalLogarithm(56), delta);
     }
 
+    // Tests for exponentiation.
     @Test
     public void exponentiationTruePositive(){
         assertEquals("Calculating power for true positive", 25, calculator.exponentiation(5, 2), delta);
