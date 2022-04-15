@@ -34,7 +34,7 @@ public class CalculatorTest {
     @Test
     public void naturalLogarithmTruePositive(){
         assertEquals("Calculating natural logarithm for true positive", 0, calculator.naturalLogarithm(1), delta);
-        assertEquals("Calculating natural logarithm for true positive", Double.NaN, calculator.naturalLogarithm(3),
+        assertEquals("Calculating natural logarithm for true positive", Double.NaN, calculator.naturalLogarithm(-3),
                 delta);
     }
     @Test
@@ -54,6 +54,4 @@ public class CalculatorTest {
         assertNotEquals("Calculating power for false positive", 5, calculator.exponentiation(2, 3), delta);
         assertNotEquals("Calculating power for false positive", 50, calculator.exponentiation(8, 3), delta);
     }
-
-
 }
