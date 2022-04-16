@@ -13,15 +13,15 @@ public class Calculator {
 
     // Method for calculating square root of a number.
     public double squareRoot(double input) {
-        logger.info("Calculating square root of: " + input + "...");
+//        logger.info("Calculating square root of: " + input + "...");
         double result = Math.sqrt(input);
-        logger.info("Result: " + result);
+        logger.info("Calculated square root of: " + input + "\nResult: " + result);
         return result;
     }
 
     // Method for calculating factorial of a number.
     public double factorial(double input) {
-        logger.info("Calculating factorial of: " + input + "...");
+//        logger.info("Calculating factorial of: " + input + "...");
         if (input < 0) {
             return Double.NaN;
         } else {
@@ -29,24 +29,24 @@ public class Calculator {
             for (int i = 1; i <= input; i++) {
                 result = result * i;
             }
-            logger.info("Result: " + result);
+            logger.info("Calculated factorial of: " + input + "\nResult: " + result);
             return result;
         }
     }
 
     // Method for calculating natural logarithm of a number.
     public double naturalLogarithm(double input) {
-        logger.info("Calculating natural logarithm of: " + input + "...");
+//        logger.info("Calculating natural logarithm of: " + input + "...");
         double result = Math.log(input);
-        logger.info("Result: " + result);
+        logger.info("Calculated natural logarithm of: " + input + "\nResult: " + result);
         return result;
     }
 
     // Method for calculating power of a given number.
     public double exponentiation(double base, double power) {
-        logger.info("Calculating exponentiation of: " + base + " to the power of " + power + "...");
+//        logger.info("Calculating exponentiation of: " + base + " to the power of " + power + "...");
         double result = Math.pow(base, power);
-        logger.info("Result: " + result);
+        logger.info("Calculated exponentiation of: " + base + " to the power of " + power + "\nResult: " + result);
         return result;
     }
 
