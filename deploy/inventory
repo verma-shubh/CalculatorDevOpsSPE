@@ -1,1 +1,2 @@
-localhost ansible_user=maverick
+[ubuntu18]
+172.16.134.177 ansible_user=shubh
