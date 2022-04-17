@@ -15,7 +15,7 @@ public class Calculator {
     public double squareRoot(double input) {
 //        logger.info("Calculating square root of: " + input + "...");
         double result = Math.sqrt(input);
-        logger.info("Calculated square root of: " + input + "\nResult: " + result);
+        logger.info("Calculated square_root of: " + input + "\nResult: " + result);
         return result;
     }
 
@@ -38,7 +38,7 @@ public class Calculator {
     public double naturalLogarithm(double input) {
 //        logger.info("Calculating natural logarithm of: " + input + "...");
         double result = Math.log(input);
-        logger.info("Calculated natural logarithm of: " + input + "\nResult: " + result);
+        logger.info("Calculated natural_logarithm of: " + input + "\nResult: " + result);
         return result;
     }
 

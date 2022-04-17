@@ -126,3 +126,53 @@ Result: 512.0
 Result: 25.0
 2022-04-17 03:32:58.963 [main] INFO  calculator.Calculator - Calculated exponentiation of: 7.0 to the power of 3.0
 Result: 343.0
+2022-04-17 03:49:59.239 [main] INFO  calculator.Calculator - Calculated natural logarithm of: 1.0
+Result: 0.0
+2022-04-17 03:50:02.829 [main] INFO  calculator.Calculator - Calculated square root of: 5.0
+Result: 2.23606797749979
+2022-04-17 03:50:09.113 [main] INFO  calculator.Calculator - Calculated exponentiation of: 5.0 to the power of 10.0
+Result: 9765625.0
+2022-04-17 03:50:28.953 [main] INFO  calculator.Calculator - Calculated factorial of: 10.0
+Result: 3628800.0
+2022-04-17 03:50:33.688 [main] INFO  calculator.Calculator - Calculated square root of: 10.0
+Result: 3.1622776601683795
+2022-04-17 03:50:39.524 [main] INFO  calculator.Calculator - Calculated natural logarithm of: 6.0
+Result: 1.791759469228055
+2022-04-17 03:50:48.056 [main] INFO  calculator.Calculator - Calculated exponentiation of: 1.0 to the power of 1.0E7
+Result: 1.0
+2022-04-17 03:51:03.877 [main] INFO  calculator.Calculator - Calculated square root of: 45.0
+Result: 6.708203932499369
+2022-04-17 03:51:10.960 [main] INFO  calculator.Calculator - Calculated square root of: 64.0
+Result: 8.0
+2022-04-17 03:51:17.321 [main] INFO  calculator.Calculator - Calculated factorial of: 7.0
+Result: 5040.0
+2022-04-17 03:51:27.656 [main] INFO  calculator.Calculator - Calculated exponentiation of: 5.0 to the power of 4.0
+Result: 625.0
+2022-04-17 03:51:43.159 [main] INFO  calculator.Calculator - Calculated natural logarithm of: 45.0
+Result: 3.8066624897703196
+2022-04-17 03:51:46.236 [main] INFO  calculator.Calculator - Calculated square root of: 82.0
+Result: 9.055385138137417
+2022-04-17 03:51:53.179 [main] INFO  calculator.Calculator - Calculated exponentiation of: 79.0 to the power of 2.0
+Result: 6241.0
+2022-04-17 03:52:01.143 [main] INFO  calculator.Calculator - Calculated natural logarithm of: 12.0
+Result: 2.4849066497880004
+2022-04-17 03:52:09.323 [main] INFO  calculator.Calculator - Calculated factorial of: 11.0
+Result: 3.99168E7
+2022-04-17 03:52:14.287 [main] INFO  calculator.Calculator - Calculated natural logarithm of: 9.0
+Result: 2.1972245773362196
+2022-04-17 03:52:19.497 [main] INFO  calculator.Calculator - Calculated square root of: 56.0
+Result: 7.483314773547883
+2022-04-17 03:52:24.586 [main] INFO  calculator.Calculator - Calculated factorial of: 74.0
+Result: 3.3078854415193856E107
+2022-04-17 03:53:16.246 [main] INFO  calculator.Calculator - Calculated factorial of: 9.0
+Result: 362880.0
+2022-04-17 03:53:23.443 [main] INFO  calculator.Calculator - Calculated exponentiation of: 8.0 to the power of 7.0
+Result: 2097152.0
+2022-04-17 03:53:29.049 [main] INFO  calculator.Calculator - Calculated factorial of: 1.0
+Result: 1.0
+2022-04-17 03:53:33.192 [main] INFO  calculator.Calculator - Calculated factorial of: 0.0
+Result: 1.0
+2022-04-17 03:53:51.919 [main] INFO  calculator.Calculator - Calculated natural logarithm of: -10.0
+Result: NaN
+2022-04-17 03:53:59.131 [main] INFO  calculator.Calculator - Calculated square root of: 7.0
+Result: 2.6457513110645907
